@@ -1,0 +1,89 @@
+﻿/*
+Theme Name:Custom theme for H324.com
+Author:Justin Lui
+Author URI:http://justinlui.com
+Tags:blue,orange,fixed width,two columns,widgets
+All elements,including selection of colors,logo,and layout
+are designed by Justin Lui.
+*/
+@charset "utf-8";body,#header{margin:0}
+body{background-color:#ece4db;font:12px Arial,Helvetica,sans-serif}
+#wrapper{width:970px;margin:auto}
+#banner_links a:link,#header a:link,#footer a:link,#header,#footer,#footer a:visited{color:#FFF}
+a:visited{color:#96a3f0}
+#header{background:url(images/header_bkgrd2.gif) center no-repeat;height:103px;margin-bottom:10px}
+#search_box,#client_slideshow,#headliner,#workshops,#bootcamp,#a_bootcamp,#c_bootcamp{float:left}
+#logo{padding:5px 0 0 10px;}
+#leftwrapper a:link,#sidebar a:link{color:#2595e5}
+#banner_links,#signup_form{float:right}
+#banner_links{margin:12px 20px 0 0;list-style:none;line-height:16px;border-left:solid 1px #FFF;padding-left:15px}
+#signup_form{width:180px;padding:12px 8px 0 0}
+#signup_form h2{margin:0;font-size:15px}
+#signup_form p{margin:5px 0}
+#signup_form input{font-size:9px}
+#headliner,#client_slideshow{height:191px}
+#headliner{background:url(images/headliner_bkgrd.jpg) center no-repeat;width:709px}
+#headliner p{font-size:21px;font-weight:bold;padding:57px 15px 0 66px}
+#client_slideshow{width:253px;margin:0 0 7px 8px}
+h1{font-size:25px;margin:5px 0;display:block}
+h2{font-size:15px;margin:10px 0}
+.section_top{background:url(images/section_top.gif) center no-repeat;height:14px;clear:both}
+.section_bottom{clear:both;background:url(images/section_bot.gif) top no-repeat;height:14px}
+img{border:none}
+#bootcamp,#a_bootcamp,#c_bootcamp{width:283px}
+#a_bootcamp,#c_bootcamp{padding-left:34px}
+#workshops,#o_resource,#section_content{background:url(images/section_slice.gif) center repeat-y}
+#workshops ul li,#o_resource ul li,.footer_nav li{line-height:15px;padding-bottom:7px}
+#o_resource{margin:-13px 0 -12px 0;padding-left:25px}
+#workshops{margin-top:-3px;padding:0 25px;width:920px}
+#section_content{padding:10px 25px;margin-top:-8px;float:left}
+#o_resource h2{padding-top:10px}
+#o_resource ul{padding-bottom:10px}
+#leftwrapper{float:left;width:725px}
+#leftwrapper_top_red,#leftwrapper_top_blue,#leftwrapper_top_green,#leftwrapper_top_gold{height:51px;color:#FFF;margin-top:-5px}
+#leftwrapper_top_red{background:url(images/bootcampred.gif) left top no-repeat}
+#leftwrapper_top_blue{background:url(images/bootcampblue.gif) left top no-repeat}
+#leftwrapper_top_green{background:url(images/bootcampgreen.gif) left top no-repeat}
+#leftwrapper_top_gold{background:url(images/bootcampgold.gif) left top no-repeat}
+#leftwrapper_top_red h1, #leftwrapper_top_blue h1,#leftwrapper_top_gold h1,#leftwrapper_top_green h1{padding:10px 0 0 25px}
+#leftcontent{background:url(images/leftcol_slice.gif) left top repeat-y;padding:5px 25px}
+#leftwrapper_bot{background:url(images/leftcol_bot.gif) left top no-repeat;height:14px}
+#sidebar{float:right;width:239px;background-color:#36F}
+#sidebar_top_red,#sidebar_top_blue,#sidebar_top_green,#sidebar_top_gold{height:8px;width:239px}
+#sidebar_top_red{background:url(images/sidebarred_top.gif) left top no-repeat}
+#sidebar_top_blue{background:url(images/sidebarblue_top.gif) left top no-repeat}
+#sidebar_top_green{background:url(images/sidebargreen_top.gif) left top no-repeat}
+#sidebar_top_gold{background:url(images/sidebargold_top.gif) left top no-repeat}
+#sidebar_bot_red,#sidebar_bot_blue,#sidebar_bot_green,#sidebar_bot_gold{height:13px}
+#sidebar_bot_red{background:url(images/sidebarred_bot.gif) left center no-repeat}
+#sidebar_bot_blue{background:url(images/sidebarblue_bot.gif) left center no-repeat}
+#sidebar_bot_green{background:url(images/sidebargreen_bot.gif) left center no-repeat}
+#sidebar_bot_gold{background:url(images/sidebargold_bot.gif) left center no-repeat}
+#sidebar_content_red,#sidebar_content_blue,#sidebar_content_gold,#sidebar_content_green,#sb_content_generic{margin:0;padding:1px 20px 1px 15px}
+#sidebar_content_red{background:url(images/sidebarred_slice.gif) left center repeat-y}
+#sidebar_content_blue{background:url(images/sidebarblue_slice.gif) left center repeat-y}
+#sidebar_content_green{background:url(images/sidebargreen_slice.gif) left center repeat-y}
+#sidebar_content_gold{background:url(images/sidebargold_slice.gif) left center repeat-y}
+#footer{margin-top:6px;background:url(images/footer_slice2.gif) top left repeat-x #D98444;clear:both;float:left;width:970px}
+.footer_nav{float:right;margin:25px 25px 5px 45px}
+.footer_nav ul{list-style:none;padding:0}
+.footer_nav li{margin:0}
+#copyright{float:left;padding:25px 0 0 25px}
+#search_box{background:url(images/mag_glass.gif) left center no-repeat;padding-left:18px;margin:25px 0 0 25px}
+#s{font-size:9px}
+#two_col_top{background:url(images/2col_top.gif) top left no-repeat;height:8px}
+#two_col_wrapper{background:url(images/2col_slice.gif) top right repeat-y;float:left;width:970px}
+#two_col_content{float:left;width:675px;padding:0 25px}
+#two_col_bottom{clear:both;background:url(images/2col_bot.gif) top left no-repeat;height:12px}
+#sb_content_generic{float:right;width:204px}
+#sb_content_generic ul{margin:0;padding:0;list-style:none}
+#sb_content_generic ul li ul{list-style:disc;line-height:16px}
+#sb_content_generic ul li ul li{margin-left:30px}
+#sb_content_generic h2{margin-top:15px}
+.entry p{margin:5px 0;padding:10px 0px 10px 0px}
+.entry h3{font-size:18px;padding:10px 0}
+.post{padding:10px 0px 20px 0px; ; font-size:15px}
+.post p.title{font-size:30px;border-top:solid 1px #000;border-bottom:solid 1px #000;background-color:#fff3db;padding:10px 0 5px 17px;width:688px;position:relative;left:-17px}
+.navigation a{padding:5px}
+.post a{color:#000;text-decoration:none;}
+.post a:hover{text-decoration:underline;}
