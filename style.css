@@ -12,6 +12,7 @@ body{background-color:#ece4db;font:12px Arial,Helvetica,sans-serif}
 #banner_links a:link,#header a:link,#footer a:link,#header,#footer,#footer a:visited{color:#FFF}
 a:visited{color:#96a3f0}
 #header{background:url(images/header_bkgrd2.gif) center no-repeat;height:103px;margin-bottom:10px}
+#header a { display: inline-block; height: 81px; margin: 10px 0 0 26px; width: 414px; }
 #search_box,#client_slideshow,#headliner,#workshops,#bootcamp,#a_bootcamp,#c_bootcamp{float:left}
 #logo{padding:5px 0 0 10px;}
 #leftwrapper a:link,#sidebar a:link{color:#2595e5}
@@ -125,18 +126,18 @@ img{border:none}
 
 	.toggle-menu {
 	    position: relative;
-	    left: 10px;
-	    top: 10px;
+	    left: 6px;
 	    color: white;
 	    font-size: 32px;
-	    border-radius: 0 2px 2px 0;
+	    padding-right: 6px;
+	    padding-top: 6px;
+	    border-right: solid 2px #FFF;
 	}
 
 	#header {
-		height: 32px;
-		
+		height: 42px;
 		position: fixed;
-		background: url("images/mobile/header.jpg") no-repeat scroll left top / 100% 32px rgba(0, 0, 0, 0)
+		background: url("images/mobile/header.jpg") no-repeat scroll left top / 100% 100% rgba(0, 0, 0, 0);
 		width: 100%;
 	}
 

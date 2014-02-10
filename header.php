@@ -73,7 +73,7 @@
 <div id="wrapper">
 	<div id="header">
         <label for="main-nav-check" class="toggle-menu">☰</label>
-        <a href="<?php bloginfo('url');?>" style="display: inline-block; height: 81px; margin: 10px 0 0 26px; width: 414px;"></a>
+        <a href="<?php bloginfo('url');?>"></a>
         <ul id="banner_links">
 	        <li><a href="<?php echo get_permalink(8); ?>" title="Home"><?php echo get_the_title(8) ?></a></li>
         	<li><a href="<?php echo get_permalink(7); ?>" title="About H324"><?php echo get_the_title(7) ?></a></li>
