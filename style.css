@@ -12,7 +12,7 @@ body{background-color:#ece4db;font:12px Arial,Helvetica,sans-serif}
 #banner_links a:link,#header a:link,#footer a:link,#header,#footer,#footer a:visited{color:#FFF}
 a:visited{color:#96a3f0}
 #header{background:url(images/header_bkgrd2.gif) center no-repeat;height:103px;margin-bottom:10px}
-#header a { display: inline-block; height: 81px; margin: 10px 0 0 26px; width: 414px; }
+#header > a { display: inline-block; height: 81px; margin: 10px 0 0 26px; width: 414px; }
 #search_box,#client_slideshow,#headliner,#workshops,#bootcamp,#a_bootcamp,#c_bootcamp{float:left}
 #logo{padding:5px 0 0 10px;}
 #leftwrapper a:link,#sidebar a:link{color:#2595e5}
@@ -109,21 +109,22 @@ img{border:none}
 		display: none;
 	}
 
+	/* things to put back */
+	.main-nav {
+		display: block;
+	}
+
 	html { font-size: 16px;}
 	a { text-decoration: none; }
 
-	.main-nav-check {
-	  display: none;
-	}
-
 	.main-nav {
-	  position: fixed;
-	  top: 0;
-	  width: 0;
-	  height: 100%;
-	  background: #3B3B3B;
-	  overflow: hidden;
-	  transition: width 0.3s ease;
+		position: fixed;
+		top: 0;
+		width: 0;
+		height: 100%;
+		background: #3B3B3B;
+		overflow: hidden;
+		transition: width 0.3s ease;
 	}
 
 	.main-nav a, .main-nav form {
@@ -136,6 +137,7 @@ img{border:none}
 	}  
 
 	.toggle-menu {
+		display: inline;
 	    position: relative;
 	    left: 6px;
 	    color: white;
