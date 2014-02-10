@@ -53,7 +53,7 @@
     <a href="<?php echo get_permalink(152); ?>" title="Blog"><?php echo get_the_title(152) ?></a>
     <a href="<?php echo get_permalink(10); ?>" title="Contact Us"><?php echo get_the_title(10); ?></a>
 
-    <form method="post" action="http://www.aweber.com/scripts/addlead.pl" id="signup_form">
+    <form method="post" action="http://www.aweber.com/scripts/addlead.pl">
         <input type="hidden" name="meta_web_form_id" value="243814305" />
         <input type="hidden" name="meta_split_id" value="" />
         <input type="hidden" name="listname" value="h324" />
@@ -63,9 +63,10 @@
         <input type="hidden" name="meta_required" value="email" />
         <input type="hidden" name="meta_forward_vars" value="" />
         <input type="hidden" name="meta_tooltip" value="" />
-        <h2>Get a Free  Presentation Tip Every Tuesday!</h2>
+        <h2>Get a Free Presentation Tip Every Tuesday!</h2>
         <p>Upgrade Your Skills Weekly</p>
-        <input type="text" name="email" size="22" id="awf_field-6768882" value="Enter your email here" />
+        <input type="text" name="email" size="10" id="awf_field-6768882" placeholder="Enter email" />
+        <button type="submit">Sign me up!</button>
         <div style="display: none;"><img src="http://forms.aweber.com/form/displays.htm?id=TCzMHIwszAys" alt="" /></div>
     </form> 
 
@@ -93,7 +94,7 @@
             <input type="hidden" name="meta_tooltip" value="" />
         	<h2>Get a Free  Presentation Tip Every Tuesday!</h2>
             <p>Upgrade Your Skills Weekly</p>
-<input type="text" name="email" size="22" id="awf_field-6768882" value="Enter your email here" />
+<input type="text" name="email" size="22" id="awf_field-6768882" placeholder="Enter your email here" />
           <div style="display: none;"><img src="http://forms.aweber.com/form/displays.htm?id=TCzMHIwszAys" alt="" /></div>
         </form> 
     </div>
