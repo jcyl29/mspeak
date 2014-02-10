@@ -1,4 +1,4 @@
-/*
+﻿/*
 Theme Name:Custom theme for H324.com
 Author:Justin Lui
 Author URI:http://justinlui.com
@@ -87,75 +87,3 @@ img{border:none}
 .navigation a{padding:5px}
 .post a{color:#000;text-decoration:none;}
 .post a:hover{text-decoration:underline;}
-
-
-@media all and (max-width: 640px) {
-	* {
-	  box-sizing: border-box;
-	}
-
-	html { font-size: 16px;}
-	a { text-decoration: none; }
-
-	.main-nav-check {
-	  display: none;
-	}
-
-	.main-nav {
-	  position: fixed;
-	  top: 0;
-	  width: 0;
-	  height: 100%;
-	  background: #3B3B3B;
-	  overflow: hidden;
-	  transition: width 0.3s ease;
-	}
-
-	.main-nav a {
-	    display: block;
-	    background: linear-gradient(#3E3E3E, #383838);
-	    border-top: 1px solid #484848;
-	    border-bottom: 1px solid #2E2E2E;
-	    color: white;
-	    padding: 15px;
-	    &:hover, &:focus {
-	      background: linear-gradient(#484848, #383838);
-	    }
-	  }
-
-	.toggle-menu {
-	    position: relative;
-	    left: 10px;
-	    top: 10px;
-	    color: white;
-	    font-size: 32px;
-	    border-radius: 0 2px 2px 0;
-	}
-
-	#header {
-		height: 32px;
-		
-		position: fixed;
-		background: url("images/mobile/header.jpg") no-repeat scroll left top / 100% 32px;
-		width: 100%;
-	}
-
-	#header a, #header ul, #header form {
-		display: none;
-	}
-
-	#wrapper {
-	  float: right;
-	  width: 100%;
-	  transition: width 0.3s ease;
-	}
-
-	#main-nav-check:checked + #main-nav {
-	  width: 40%;
-	}
-	#main-nav-check:checked ~ #wrapper {
-	  width: 60%;
-	}
-
-}
-
