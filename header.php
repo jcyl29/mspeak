@@ -94,7 +94,7 @@
             <input type="hidden" name="meta_tooltip" value="" />
         	<h2>Get a Free  Presentation Tip Every Tuesday!</h2>
             <p>Upgrade Your Skills Weekly</p>
-<input type="text" name="email" size="22" id="awf_field-6768882" placeholder="Enter your email here" />
+            <input type="text" name="email" size="22" id="awf_field-6768882" placeholder="Enter your email here" />
           <div style="display: none;"><img src="http://forms.aweber.com/form/displays.htm?id=TCzMHIwszAys" alt="" /></div>
         </form> 
     </div>
