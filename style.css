@@ -100,12 +100,12 @@ img{border:none}
 	}
 
 	/* reset width of everything */
-	#wrapper, #header, .main-nav form, #headliner {
+	#wrapper, #header, .main-nav form, #headliner, #workshops, #footer, #bootcamp, #a_bootcamp, #c_bootcamp {
 		width: 100%;
 	}
 
 	/* things to hide */
-	#header a, #header ul, #header form, #client_slideshow {
+	#header a, #header ul, #header form, #client_slideshow, .section_top, .section_bottom {
 		display: none;
 	}
 
@@ -114,11 +114,22 @@ img{border:none}
 		display: block;
 	}
 
+	#header, #header > a, .main-nav {
+	    position: fixed;
+	}
+
+	#header > a {
+		display: inline-block;
+    	height: 42px;
+    	left: 57px;
+	    top: 0;
+    	width: 58%;
+	}
+
 	html { font-size: 16px;}
 	a { text-decoration: none; }
 
 	.main-nav {
-		position: fixed;
 		top: 0;
 		width: 0;
 		height: 100%;
@@ -149,7 +160,6 @@ img{border:none}
 
 	#header {
 		height: 42px;
-		position: fixed;
 		background: url("images/mobile/header.jpg") no-repeat scroll left top / 100% 100% rgba(0, 0, 0, 0);
 	}
 
@@ -168,11 +178,18 @@ img{border:none}
 
 	#headliner {
 		height: auto;
+		background-image: none;
 	}
 
 	#headliner p {
 		font-size: 2em;
 		padding: 24px 0 0;
+		text-align: center;
+	}
+
+	#workshops {
+		padding: 0;
+		margin: 0;
 	}
 
 }
