@@ -192,5 +192,20 @@ img{border:none}
 		margin: 0;
 	}
 
+	#footer div {
+		float: none;
+		text-align: center;
+		clear:both;
+	}
+
+	#footer .footer_nav, #copyright {
+		margin: 0;
+	}
+
+	#footer .footer_nav {
+		border-top: solid 1px white;
+		border-bottom: solid 1px white;
+	}
+
 }
 
